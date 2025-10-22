@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-#a^%g-u5fgk+&__%3wb-dhrc&8c^psei319-&j@&_@h#m=#dj^
 
 DEBUG = False
 
-ALLOWED_HOSTS = ['book_store.onrender.com']
+ALLOWED_HOSTS = ['*']
 
 DATABASES = {
     'default': dj_database_url.config(default='sqlite:///db.sqlite3')
